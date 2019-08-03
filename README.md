@@ -1,6 +1,7 @@
 # Web-crawler
 
 #Project description#
+
 This project implements the following parts of the project requirements:
 1) Connect to a supplied URL and request the webpage and create the corresponding folders accordingly.
 2) Download all images in the page. The program detects each image’s path and the server that the image is stored on and then proceeds to act correspondingly. The mentioned image would later be saved in the folder for the page it was found on.
@@ -10,6 +11,7 @@ This project implements the following parts of the project requirements:
 
 
 #Guide for program use#
+
 It should be noted that the entered URL must start with either http:// or https:// and it can only include spaces at the beginning and the end of it. As for the depth, user must not enter negative values. The program would crash otherwise.
 
 
