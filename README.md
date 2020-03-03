@@ -1,6 +1,6 @@
 # Web-crawler
 
-#Project description#
+## Project description
 
 This project implements the following parts of the project requirements:
 1) Connect to a supplied URL and request the webpage and create the corresponding folders accordingly.
@@ -10,12 +10,12 @@ This project implements the following parts of the project requirements:
 5) Supports SSL connections.
 
 
-#Guide for program use#
+## Guide for program use
 
 It should be noted that the entered URL must start with either http:// or https:// and it can only include spaces at the beginning and the end of it. As for the depth, user must not enter negative values. The program would crash otherwise.
 
 
-#Known bugs#
+## Known bugs
 1) The threading feature causes the printed statements to collide, which distorts the user interface. Moreover, a large number of images on a webpage interrupts the process.
 2) Invalid input (for both depth and URL) causes the program to crash.
 3) The proper functionality of the program depends on how a website implements its directories. For a hyperlink, it was assumed that if the link starts with a slash, it is opened from the main (home) directory and else, it exists in the current directory. Any
